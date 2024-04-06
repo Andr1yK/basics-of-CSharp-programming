@@ -36,7 +36,7 @@
       
       for (int i = 0; i < a.Length; i++)
       {
-        a[i] = random.Next(-100, 100);
+        a[i] = random.Next(-99, 99);
       }
     }
     
