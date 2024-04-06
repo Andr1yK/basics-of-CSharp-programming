@@ -1,12 +1,8 @@
-﻿using System; 
-using System.Collections.Generic; 
-using System.Text;
-
-namespace Lab_2
+﻿namespace Lab_2
 {
   class Program
   {
-    static void Main() 
+    static void Main()
     {
       Console.Write("x = ");
       double x = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
